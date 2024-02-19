@@ -21,8 +21,9 @@ const About = () => {
       {/* Image */}
       <div className="about-image">
         <img
-          src="/images/pic.jpeg"
-          alt="About Us"
+          // src="./images/pic.jpeg"
+          src={`${process.env.PUBLIC_URL}/images/pic.jpeg`}
+          alt="Profile-Pic"
           className="about-img"
         />
       </div>

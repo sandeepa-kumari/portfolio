@@ -10,7 +10,7 @@ const Header = () => {
                 <h1>SANDEEPA KUMARI</h1>
             </div>
             <nav>
-                <ul>
+                <ul >
                     <li><a href="#about">About</a></li>
                     <li><a href="#work_experience">Work Experience</a></li>
                     <li><a href="#education">Education</a></li>

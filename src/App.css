@@ -79,6 +79,20 @@ nav ul {
   font-size: 18px;
 }
 
+/* Media query for smaller screens */
+@media screen and (max-width: 900px) {
+  nav ul {
+    justify-content: center; /* Center align items for smaller screens */
+    flex-direction: column; /* Display items in a column layout */
+    align-items: center; /* Center items vertically */
+    margin-top: 60px;
+  }
+
+  nav ul li {
+    margin-bottom: 10px; /* Add space between each list item */
+  }
+}
+
 nav a {
   text-decoration: none;
   color: white;
