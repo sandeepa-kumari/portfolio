@@ -1,0 +1,52 @@
+.experience-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .experience-header h3 {
+    margin: 0;
+  }
+  
+  .experience-details {
+    margin-top: 10px;
+  }
+  
+  .experience-details p {
+    margin: 5px 0;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .experience-container {
+      padding: 10px;
+    }
+  }
+
+  
+  .experience-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    opacity: 0;
+  }
+  
+  .fade-in {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .experience-item.fade-in {
+    opacity: 1;
+  }
+  

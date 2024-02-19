@@ -1,0 +1,19 @@
+.project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .project-item {
+    margin-bottom: 30px;
+  }
+  
+  .fade-in {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  .project-item.fade-in {
+    opacity: 1;
+  }
+  

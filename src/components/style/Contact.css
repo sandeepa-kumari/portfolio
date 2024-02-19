@@ -1,0 +1,120 @@
+/* .contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-icon {
+    margin-right: 10px;
+  }
+  
+  .contact-text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contact-container {
+      padding: 10px;
+    }
+  }
+   */
+/* 
+
+
+   .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .contact-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .contact-text {
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-box {
+      width: 90%;
+    }
+  } */
+  
+
+
+  /* Contact.css */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh;  */
+  }
+  
+  .contact-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 50px; /* Add margin to create space between the contact box and footer */
+  }
+  
+  .contact-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .contact-text {
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-box {
+      width: 90%;
+    }
+  }
+  
